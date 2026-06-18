@@ -1,0 +1,6 @@
+HTML size: 102076
+Contains 沪金罚决字〔2026〕50号: True
+Contains 汽车金融映射风险: True
+Contains 统一授信和集中度管理 (sub_field not shown): False
+高风险案例数文本出现: 22
+case-group count: 58

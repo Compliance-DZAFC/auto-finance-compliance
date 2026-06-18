@@ -1,0 +1,2453 @@
+[
+  {
+    "doc_id": "1257170",
+    "doc_no": "沪金罚决字〔2026〕50号",
+    "seq": "1",
+    "party": "上海崇明沪农商村镇银行股份有限公司",
+    "violation": "跨经营区域发放贷款、未按规定对集团客户进行统一授信管理、贷款管理严重违反审慎经营规则、员工行为管理严重违反审慎经营规则",
+    "penalty": "罚款160万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1257170&itemId=1000",
+    "publish_date": "2026-05-09",
+    "rowspan_group": 0,
+    "amount": 160.0,
+    "institution_type": "村镇银行",
+    "penalty_type": "罚款/没收",
+    "field": "信贷业务",
+    "sub_field": "统一授信和集中度管理",
+    "field_confidence": "low",
+    "category_tags": [
+      "授信审批"
+    ],
+    "field_hits": [
+      [
+        "信贷业务",
+        2,
+        [
+          "统一授信"
+        ]
+      ]
+    ],
+    "level": "高",
+    "tags": [
+      "集中度风险",
+      "集团客户",
+      "统一授信",
+      "授信审批",
+      "过度授信",
+      "异地授信"
+    ],
+    "mapping": "该处罚同时命中多个汽车金融相关分类，综合判定映射优先级为高。核心映射：经销商集团客户授信集中度是汽车金融特有风险。多家经销商同属一个集团时，须合并计算授信余额，防止集中度超标。",
+    "advice": [
+      "建立经销商集团图谱，识别隐性关联关系",
+      "对集团客户实施统一授信管理，合并计算风险敞口",
+      "设置单一集团客户授信上限（建议不超过资本净额15%）",
+      "建立统一授信管理平台，防止多头授信",
+      "明确审批权限，禁止越权审批",
+      "对异地授信实施专项审查"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:26:51.955554"
+  },
+  {
+    "doc_id": "1257170",
+    "doc_no": "沪金罚决字〔2026〕51号",
+    "seq": "2",
+    "party": "徐健（时任上海崇明沪农商村镇银行股份有限公司风险管理部经理、市场部总经理）",
+    "violation": "员工行为管理严重违反审慎经营规则",
+    "penalty": "禁止从事银行业工作10年",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1257170&itemId=1000",
+    "publish_date": "2026-05-09",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "村镇银行",
+    "penalty_type": "禁止/取消资格",
+    "field": "其他",
+    "sub_field": "其他",
+    "field_confidence": "low",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:27:22.665660"
+  },
+  {
+    "doc_id": "1257170",
+    "doc_no": "沪金罚决字〔2026〕52号",
+    "seq": "3",
+    "party": "郁俊（时任上海崇明沪农商村镇银行股份有限公司副行长兼市场部总经理、贷款审批委员会主任）",
+    "violation": "员工行为管理严重违反审慎经营规则",
+    "penalty": "禁止从事银行业工作1年",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1257170&itemId=1000",
+    "publish_date": "2026-05-09",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "村镇银行",
+    "penalty_type": "禁止/取消资格",
+    "field": "其他",
+    "sub_field": "其他",
+    "field_confidence": "low",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:27:53.252067"
+  },
+  {
+    "doc_id": "1257170",
+    "doc_no": "沪金罚决字〔2026〕53号",
+    "seq": "4",
+    "party": "马周（时任上海崇明沪农商村镇银行股份有限公司副行长）",
+    "violation": "员工行为管理严重违反审慎经营规则",
+    "penalty": "禁止从事银行业工作3年",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1257170&itemId=1000",
+    "publish_date": "2026-05-09",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "村镇银行",
+    "penalty_type": "禁止/取消资格",
+    "field": "内控合规案防",
+    "sub_field": "员工行为管理",
+    "field_confidence": "medium",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:27:57.528897"
+  },
+  {
+    "doc_id": "1257170",
+    "doc_no": "沪金罚决字〔2026〕54号",
+    "seq": "5",
+    "party": "施静（时任上海崇明沪农商村镇银行股份有限公司市场部副总经理、总经理）",
+    "violation": "员工行为管理严重违反审慎经营规则",
+    "penalty": "禁止从事银行业工作3年",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1257170&itemId=1000",
+    "publish_date": "2026-05-09",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "村镇银行",
+    "penalty_type": "禁止/取消资格",
+    "field": "其他",
+    "sub_field": "其他",
+    "field_confidence": "low",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:28:27.661418"
+  },
+  {
+    "doc_id": "1257170",
+    "doc_no": "沪金罚决字〔2026〕55号",
+    "seq": "6",
+    "party": "陈文斌（时任上海崇明沪农商村镇银行股份有限公司董事长、行长）",
+    "violation": "员工行为管理严重违反审慎经营规则",
+    "penalty": "禁止从事银行业工作终身",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1257170&itemId=1000",
+    "publish_date": "2026-05-09",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "村镇银行",
+    "penalty_type": "禁止/取消资格",
+    "field": "内控合规案防",
+    "sub_field": "员工行为管理",
+    "field_confidence": "medium",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:28:31.798343"
+  },
+  {
+    "doc_id": "1252320",
+    "doc_no": "沪金罚决字〔2026〕45号",
+    "seq": "1",
+    "party": "中国建设银行股份有限公司信用卡中心",
+    "violation": "客户资信水平调查严重违反审慎经营规则、授信额度管理严重违反审慎经营规则、信用卡分期资金管理严重违反审慎经营规则、信用卡透支资金管理严重违反审慎经营规则、对高风险持卡人未采取审慎监管措施、向关系人发放信用贷款、未经资格认定从事信用卡发卡营销活动、信用卡发放严重违反审慎经营规则、预借现金分期业务严重违反审慎经营规则、可疑交易账户管理严重违反审慎经营规则、未按规定退还分期利息、发卡业务管理严重违反审慎经营规则、信用卡催收外包管理严重违反审慎经营规则、收单商户准入管理不到位",
+    "penalty": "罚没合计575.265231万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1252320&itemId=1000",
+    "publish_date": "2026-03-23",
+    "rowspan_group": 0,
+    "amount": 575.265231,
+    "institution_type": "国有大型商业银行",
+    "penalty_type": "罚款/没收",
+    "field": "公司治理",
+    "sub_field": "公司治理",
+    "field_confidence": "low",
+    "category_tags": [
+      "不良资产处置",
+      "现金业务",
+      "银行卡",
+      "反洗钱"
+    ],
+    "field_hits": [
+      [
+        "柜台业务",
+        2,
+        [
+          "收单",
+          "预借现金"
+        ]
+      ],
+      [
+        "公司治理",
+        1,
+        [
+          "外包"
+        ]
+      ],
+      [
+        "信贷业务",
+        1,
+        [
+          "催收"
+        ]
+      ],
+      [
+        "风险管理",
+        1,
+        [
+          "可疑交易"
+        ]
+      ]
+    ],
+    "level": "高",
+    "tags": [
+      "不良资产处置",
+      "催收管理",
+      "债务重组"
+    ],
+    "mapping": "不良资产处置（催收、核销、债务重组）直接影响汽车金融公司资产质量。违规处置会掩盖真实风险。",
+    "advice": [
+      "建立合规催收机制，禁止暴力催收",
+      "规范不良资产核销流程，确保真实出表",
+      "定期开展不良资产处置合规审计"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:29:02.588303"
+  },
+  {
+    "doc_id": "1252320",
+    "doc_no": "沪金罚决字〔2026〕44号",
+    "seq": "2",
+    "party": "易卉卉（时任中国建设银行股份有限公司信用卡中心风险管理处副处长）",
+    "violation": "客户资信水平调查严重违反审慎经营规则、授信额度管理严重违反审慎经营规则",
+    "penalty": "警告并罚款5万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1252320&itemId=1000",
+    "publish_date": "2026-03-23",
+    "rowspan_group": 0,
+    "amount": 5.0,
+    "institution_type": "国有大型商业银行",
+    "penalty_type": "罚款/没收、警告",
+    "field": "信贷业务",
+    "sub_field": "授信审批",
+    "field_confidence": "medium",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:29:28.870966"
+  },
+  {
+    "doc_id": "1252320",
+    "doc_no": "沪金罚决字〔2026〕46号",
+    "seq": "3",
+    "party": "韩亮（时任中国建设银行股份有限公司信用卡中心风险管理处副处长）",
+    "violation": "信用卡分期资金管理严重违反审慎经营规则、信用卡透支资金管理严重违反审慎经营规则、对高风险持卡人未采取审慎监管措施",
+    "penalty": "警告并罚款5万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1252320&itemId=1000",
+    "publish_date": "2026-03-23",
+    "rowspan_group": 0,
+    "amount": 5.0,
+    "institution_type": "国有大型商业银行",
+    "penalty_type": "罚款/没收、警告",
+    "field": "信贷业务",
+    "sub_field": "消费贷款",
+    "field_confidence": "medium",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:29:40.001592"
+  },
+  {
+    "doc_id": "1252320",
+    "doc_no": "沪金罚决字〔2026〕47号",
+    "seq": "4",
+    "party": "上海尚诚消费金融股份有限公司",
+    "violation": "个人贷款管理严重违反审慎经营规则、未经任职资格许可实际履行职责、审计管理严重违反审慎经营规则、保证金管理严重不审慎、催收外包管理严重违反审慎经营规则",
+    "penalty": "罚款160万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1252320&itemId=1000",
+    "publish_date": "2026-03-23",
+    "rowspan_group": 0,
+    "amount": 160.0,
+    "institution_type": "消费金融公司",
+    "penalty_type": "罚款/没收",
+    "field": "公司治理",
+    "sub_field": "公司治理",
+    "field_confidence": "low",
+    "category_tags": [
+      "不良资产处置",
+      "信贷抵质押担保"
+    ],
+    "field_hits": [
+      [
+        "信贷业务",
+        2,
+        [
+          "保证金",
+          "催收"
+        ]
+      ],
+      [
+        "公司治理",
+        1,
+        [
+          "外包"
+        ]
+      ]
+    ],
+    "level": "高",
+    "tags": [
+      "不良资产处置",
+      "催收管理",
+      "债务重组",
+      "抵质押担保",
+      "押品管理",
+      "登记合规"
+    ],
+    "mapping": "该处罚同时命中多个汽车金融相关分类，综合判定映射优先级为高。核心映射：不良资产处置（催收、核销、债务重组）直接影响汽车金融公司资产质量。违规处置会掩盖真实风险。",
+    "advice": [
+      "建立合规催收机制，禁止暴力催收",
+      "规范不良资产核销流程，确保真实出表",
+      "定期开展不良资产处置合规审计",
+      "建立押品全生命周期管理，确保权属清晰",
+      "抵押登记须放款前完成，支持电子抵押的地区优先线上办理",
+      "定期核查保证金账户余额及冻结状态"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:30:10.723884"
+  },
+  {
+    "doc_id": "1252320",
+    "doc_no": "沪金罚决字〔2026〕48号",
+    "seq": "5",
+    "party": "邱晓娟（时任上海尚诚消费金融股份有限公司直营业务部资深高级经理）",
+    "violation": "个人贷款管理严重违反审慎经营规则",
+    "penalty": "警告",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1252320&itemId=1000",
+    "publish_date": "2026-03-23",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "消费金融公司",
+    "penalty_type": "警告",
+    "field": "信贷业务",
+    "sub_field": "贷前调查",
+    "field_confidence": "medium",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:30:40.130646"
+  },
+  {
+    "doc_id": "1252320",
+    "doc_no": "沪金罚决字〔2026〕49号",
+    "seq": "6",
+    "party": "孙茜（时任上海尚诚消费金融股份有限公司风险管理部资深高级经理）",
+    "violation": "个人贷款管理严重违反审慎经营规则",
+    "penalty": "警告",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1252320&itemId=1000",
+    "publish_date": "2026-03-23",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "消费金融公司",
+    "penalty_type": "警告",
+    "field": "信贷业务",
+    "sub_field": "贷前调查",
+    "field_confidence": "medium",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:30:51.379156"
+  },
+  {
+    "doc_id": "1249787",
+    "doc_no": "沪金罚决字〔2026〕31号",
+    "seq": "1",
+    "party": "中国东方资产管理股份有限公司上海市分公司",
+    "violation": "借收购不良资产名义为企业提供融资、抵押物管理严重违反审慎经营规则、投后管理严重违反审慎经营规则",
+    "penalty": "罚款150万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1249787&itemId=1000",
+    "publish_date": "2026-02-14",
+    "rowspan_group": 0,
+    "amount": 150.0,
+    "institution_type": "其他机构",
+    "penalty_type": "罚款/没收",
+    "field": "信贷业务",
+    "sub_field": "不良资产",
+    "field_confidence": "medium",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:31:15.454846"
+  },
+  {
+    "doc_id": "1249787",
+    "doc_no": "沪金罚决字〔2026〕32号",
+    "seq": "2",
+    "party": "刘航（时任中国东方资产管理股份有限公司上海市分公司投行业务部主任、资产经营四部经理及临时负责人、第五组团队负责人）",
+    "violation": "抵押物管理严重违反审慎经营规则、投后管理严重违反审慎经营规则",
+    "penalty": "警告并罚款5万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1249787&itemId=1000",
+    "publish_date": "2026-02-14",
+    "rowspan_group": 0,
+    "amount": 5.0,
+    "institution_type": "个人",
+    "penalty_type": "罚款/没收、警告",
+    "field": "其他",
+    "sub_field": "其他",
+    "field_confidence": "low",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:31:46.414206"
+  },
+  {
+    "doc_id": "1249787",
+    "doc_no": "沪金罚决字〔2026〕34号",
+    "seq": "3",
+    "party": "孙骏（时任中国东方资产管理股份有限公司上海市分公司资产经营一部临时负责人、第四组团队负责人）",
+    "violation": "借收购不良资产名义为企业提供融资",
+    "penalty": "警告并罚款5万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1249787&itemId=1000",
+    "publish_date": "2026-02-14",
+    "rowspan_group": 0,
+    "amount": 5.0,
+    "institution_type": "个人",
+    "penalty_type": "罚款/没收、警告",
+    "field": "其他",
+    "sub_field": "其他",
+    "field_confidence": "low",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:32:17.679637"
+  },
+  {
+    "doc_id": "1249787",
+    "doc_no": "沪金罚决字〔2026〕33号",
+    "seq": "4",
+    "party": "颜世鑫",
+    "violation": "职务侵占",
+    "penalty": "禁止进入保险业3年",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1249787&itemId=1000",
+    "publish_date": "2026-02-14",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "其他机构",
+    "penalty_type": "禁止/取消资格",
+    "field": "其他",
+    "sub_field": "其他",
+    "field_confidence": "low",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:32:48.392446"
+  },
+  {
+    "doc_id": "1249787",
+    "doc_no": "沪金罚决字〔2026〕35号",
+    "seq": "5",
+    "party": "张晨昊（时任上海松江富明村镇银行股份有限公司普惠一部客户经理）",
+    "violation": "个人贷款管理严重违反审慎经营规则",
+    "penalty": "警告",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1249787&itemId=1000",
+    "publish_date": "2026-02-14",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "村镇银行",
+    "penalty_type": "警告",
+    "field": "其他",
+    "sub_field": "其他",
+    "field_confidence": "low",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:33:18.450179"
+  },
+  {
+    "doc_id": "1249787",
+    "doc_no": "沪金罚决字〔2026〕36号",
+    "seq": "6",
+    "party": "陈绍坚（时任上海松江富明村镇银行股份有限公司营业部副总经理兼普惠一部业务主管）",
+    "violation": "员工行为管理严重违反审慎经营规则",
+    "penalty": "警告",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1249787&itemId=1000",
+    "publish_date": "2026-02-14",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "村镇银行",
+    "penalty_type": "警告",
+    "field": "其他",
+    "sub_field": "其他",
+    "field_confidence": "low",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:33:48.423207"
+  },
+  {
+    "doc_id": "1249787",
+    "doc_no": "沪金罚决字〔2026〕43号",
+    "seq": "7",
+    "party": "上海松江富明村镇银行股份有限公司",
+    "violation": "个人贷款管理严重违反审慎经营规则、员工行为管理严重违反审慎经营规则",
+    "penalty": "罚款60万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1249787&itemId=1000",
+    "publish_date": "2026-02-14",
+    "rowspan_group": 0,
+    "amount": 60.0,
+    "institution_type": "村镇银行",
+    "penalty_type": "罚款/没收",
+    "field": "其他",
+    "sub_field": "其他",
+    "field_confidence": "low",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:34:19.271250"
+  },
+  {
+    "doc_id": "1249787",
+    "doc_no": "沪金罚决字〔2026〕37号",
+    "seq": "8",
+    "party": "何然（时任中国建设银行股份有限公司上海虹口支行副行长）",
+    "violation": "项目融资业务严重违反审慎经营规则",
+    "penalty": "警告并罚款5万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1249787&itemId=1000",
+    "publish_date": "2026-02-14",
+    "rowspan_group": 0,
+    "amount": 5.0,
+    "institution_type": "国有大型商业银行",
+    "penalty_type": "罚款/没收、警告",
+    "field": "其他",
+    "sub_field": "其他",
+    "field_confidence": "low",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:34:50.024720"
+  },
+  {
+    "doc_id": "1249787",
+    "doc_no": "沪金罚决字〔2026〕38号",
+    "seq": "9",
+    "party": "王钧（时任中国建设银行股份有限公司上海第六支行副行长）",
+    "violation": "经营性物业贷款管理严重违反审慎经营规则",
+    "penalty": "警告并罚款6万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1249787&itemId=1000",
+    "publish_date": "2026-02-14",
+    "rowspan_group": 0,
+    "amount": 6.0,
+    "institution_type": "国有大型商业银行",
+    "penalty_type": "罚款/没收、警告",
+    "field": "信贷业务",
+    "sub_field": "信贷管理体系流程",
+    "field_confidence": "medium",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:34:55.208688"
+  },
+  {
+    "doc_id": "1249787",
+    "doc_no": "沪金罚决字〔2026〕39号",
+    "seq": "10",
+    "party": "吴军（时任中国建设银行股份有限公司上海杨浦支行副行长）",
+    "violation": "项目融资业务严重违反审慎经营规则",
+    "penalty": "警告",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1249787&itemId=1000",
+    "publish_date": "2026-02-14",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "国有大型商业银行",
+    "penalty_type": "警告",
+    "field": "其他",
+    "sub_field": "其他",
+    "field_confidence": "low",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:35:26.333200"
+  },
+  {
+    "doc_id": "1249787",
+    "doc_no": "沪金罚决字〔2026〕40号",
+    "seq": "11",
+    "party": "黄飞鹏（时任中国建设银行股份有限公司上海崇明支行副行长）",
+    "violation": "流动资金贷款管理严重违反审慎经营规则",
+    "penalty": "警告",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1249787&itemId=1000",
+    "publish_date": "2026-02-14",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "国有大型商业银行",
+    "penalty_type": "警告",
+    "field": "信贷业务",
+    "sub_field": "流动资金贷款",
+    "field_confidence": "medium",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:35:39.929780"
+  },
+  {
+    "doc_id": "1249787",
+    "doc_no": "沪金罚决字〔2026〕41号",
+    "seq": "12",
+    "party": "中国建设银行股份有限公司上海市分行",
+    "violation": "互联网贷款风险管理严重违反审慎经营规则、流动资金贷款管理严重违反审慎经营规则、福费廷业务管理严重违反审慎经营规则、项目融资业务严重违反审慎经营规则、贷款五级分类不准确、经营性物业贷款管理严重违反审慎经营规则",
+    "penalty": "罚款420万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1249787&itemId=1000",
+    "publish_date": "2026-02-14",
+    "rowspan_group": 0,
+    "amount": 420.0,
+    "institution_type": "国有大型商业银行",
+    "penalty_type": "罚款/没收",
+    "field": "信贷业务",
+    "sub_field": "信贷风险五级分类",
+    "field_confidence": "medium",
+    "category_tags": [
+      "信用证"
+    ],
+    "field_hits": [
+      [
+        "供应链金融",
+        1,
+        [
+          "福费廷"
+        ]
+      ],
+      [
+        "信贷业务",
+        1,
+        [
+          "五级分类"
+        ]
+      ]
+    ],
+    "level": "高",
+    "tags": [
+      "信用证",
+      "贸易背景",
+      "进口融资",
+      "五级分类",
+      "资产质量",
+      "拨备计提"
+    ],
+    "mapping": "该处罚同时命中多个汽车金融相关分类，综合判定映射优先级为高。核心映射：风险五级分类直接影响汽车金融公司资产质量真实性及拨备充足性。分类不准确会掩盖真实风险。",
+    "advice": [
+      "严格审查信用证贸易背景真实性",
+      "建立信用证资金监控机制，防止挪用",
+      "明确福费廷及押汇业务审批权限",
+      "建立贷款风险分类矩阵，结合逾期天数、担保方式、客户评级自动分类",
+      "定期开展分类准确性审计，抽查比例不低于10%",
+      "禁止人为调整分类掩盖不良"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:36:12.355216"
+  },
+  {
+    "doc_id": "1249787",
+    "doc_no": "沪金罚决字〔2026〕42号",
+    "seq": "13",
+    "party": "朱利锋（时任中国建设银行股份有限公司上海市分行普惠金融事业部副总经理）",
+    "violation": "互联网贷款风险管理严重违反审慎经营规则",
+    "penalty": "警告并罚款5万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1249787&itemId=1000",
+    "publish_date": "2026-02-14",
+    "rowspan_group": 0,
+    "amount": 5.0,
+    "institution_type": "国有大型商业银行",
+    "penalty_type": "罚款/没收、警告",
+    "field": "风险管理",
+    "sub_field": "反洗钱",
+    "field_confidence": "medium",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:36:20.257433"
+  },
+  {
+    "doc_id": "1248827",
+    "doc_no": "沪金罚决字〔2026〕24号",
+    "seq": "1",
+    "party": "赵越（时任浙江民泰商业银行股份有限公司上海杨浦支行行长）",
+    "violation": "流动资金贷款贷后管理严重违反审慎经营规则",
+    "penalty": "警告",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1248827&itemId=1000",
+    "publish_date": "2026-02-03",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "其他银行",
+    "penalty_type": "警告",
+    "field": "信贷业务",
+    "sub_field": "贷后管理",
+    "field_confidence": "medium",
+    "category_tags": [
+      "个人经营贷款",
+      "消费贷款"
+    ],
+    "field_hits": [
+      [
+        "信贷业务",
+        3,
+        [
+          "贷后管理"
+        ]
+      ]
+    ],
+    "level": "高",
+    "tags": [
+      "个人经营贷款",
+      "贷前调查",
+      "资金流向",
+      "消费贷款",
+      "贷后管理",
+      "贷款监测",
+      "预警机制"
+    ],
+    "mapping": "该处罚同时命中多个汽车金融相关分类，综合判定映射优先级为高。核心映射：贷后管理是汽车金融风险控制的关键环节。贷款用途监测、还款行为跟踪及预警机制直接影响资产质量。",
+    "advice": [
+      "强化经营贷贷前调查，核实经营主体真实性",
+      "建立资金流向监测系统，防止流入房市或股市",
+      "加强贷后管理，定期回访经营主体",
+      "建立消费贷款资金流向监测模型",
+      "禁止消费贷违规流入房地产市场",
+      "强化贷后管理，异常用款及时预警",
+      "建立贷后定期检查机制，覆盖所有存量贷款",
+      "部署还款行为预警模型，逾期30天启动预警",
+      "强化贷款用途监测，防止挪用"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:36:44.797977"
+  },
+  {
+    "doc_id": "1248827",
+    "doc_no": "沪金罚决字〔2026〕25号",
+    "seq": "2",
+    "party": "周强（时任浙江民泰商业银行股份有限公司上海分行副行长）",
+    "violation": "流动资金贷款贷后管理严重违反审慎经营规则、贷款五级分类不准确、员工行为管理严重违反审慎经营规则",
+    "penalty": "警告，处罚款5万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1248827&itemId=1000",
+    "publish_date": "2026-02-03",
+    "rowspan_group": 0,
+    "amount": 5.0,
+    "institution_type": "其他银行",
+    "penalty_type": "罚款/没收、警告",
+    "field": "信贷业务",
+    "sub_field": "贷后管理",
+    "field_confidence": "medium",
+    "category_tags": [
+      "个人经营贷款",
+      "消费贷款",
+      "信贷风险五级分类"
+    ],
+    "field_hits": [
+      [
+        "信贷业务",
+        4,
+        [
+          "五级分类",
+          "贷后管理"
+        ]
+      ]
+    ],
+    "level": "高",
+    "tags": [
+      "个人经营贷款",
+      "贷前调查",
+      "资金流向",
+      "消费贷款",
+      "贷后管理",
+      "贷款监测",
+      "预警机制",
+      "五级分类",
+      "资产质量",
+      "拨备计提"
+    ],
+    "mapping": "该处罚同时命中多个汽车金融相关分类，综合判定映射优先级为高。核心映射：贷后管理是汽车金融风险控制的关键环节。贷款用途监测、还款行为跟踪及预警机制直接影响资产质量。",
+    "advice": [
+      "强化经营贷贷前调查，核实经营主体真实性",
+      "建立资金流向监测系统，防止流入房市或股市",
+      "加强贷后管理，定期回访经营主体",
+      "建立消费贷款资金流向监测模型",
+      "禁止消费贷违规流入房地产市场",
+      "强化贷后管理，异常用款及时预警",
+      "建立贷后定期检查机制，覆盖所有存量贷款",
+      "部署还款行为预警模型，逾期30天启动预警",
+      "强化贷款用途监测，防止挪用",
+      "建立贷款风险分类矩阵，结合逾期天数、担保方式、客户评级自动分类",
+      "定期开展分类准确性审计，抽查比例不低于10%",
+      "禁止人为调整分类掩盖不良"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:36:53.609122"
+  },
+  {
+    "doc_id": "1248827",
+    "doc_no": "沪金罚决字〔2026〕26号",
+    "seq": "3",
+    "party": "任婴（时任浙江民泰商业银行股份有限公司上海分行营业部总经理 ）",
+    "violation": "流动资金贷款贷后管理严重违反审慎经营规则、个人贷款贷后管理严重违反审慎经营规则",
+    "penalty": "警告",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1248827&itemId=1000",
+    "publish_date": "2026-02-03",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "其他银行",
+    "penalty_type": "警告",
+    "field": "信贷业务",
+    "sub_field": "贷后管理",
+    "field_confidence": "medium",
+    "category_tags": [
+      "个人经营贷款",
+      "消费贷款"
+    ],
+    "field_hits": [
+      [
+        "信贷业务",
+        3,
+        [
+          "贷后管理"
+        ]
+      ]
+    ],
+    "level": "高",
+    "tags": [
+      "个人经营贷款",
+      "贷前调查",
+      "资金流向",
+      "消费贷款",
+      "贷后管理",
+      "贷款监测",
+      "预警机制"
+    ],
+    "mapping": "该处罚同时命中多个汽车金融相关分类，综合判定映射优先级为高。核心映射：贷后管理是汽车金融风险控制的关键环节。贷款用途监测、还款行为跟踪及预警机制直接影响资产质量。",
+    "advice": [
+      "强化经营贷贷前调查，核实经营主体真实性",
+      "建立资金流向监测系统，防止流入房市或股市",
+      "加强贷后管理，定期回访经营主体",
+      "建立消费贷款资金流向监测模型",
+      "禁止消费贷违规流入房地产市场",
+      "强化贷后管理，异常用款及时预警",
+      "建立贷后定期检查机制，覆盖所有存量贷款",
+      "部署还款行为预警模型，逾期30天启动预警",
+      "强化贷款用途监测，防止挪用"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:36:57.820630"
+  },
+  {
+    "doc_id": "1248827",
+    "doc_no": "沪金罚决字〔2026〕27号",
+    "seq": "4",
+    "party": "卢林庆（时任浙江民泰商业银行股份有限公司上海分行营业部客户经理）",
+    "violation": "个人贷款贷后管理严重违反审慎经营规则",
+    "penalty": "警告",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1248827&itemId=1000",
+    "publish_date": "2026-02-03",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "其他银行",
+    "penalty_type": "警告",
+    "field": "信贷业务",
+    "sub_field": "个人经营贷款",
+    "field_confidence": "low",
+    "category_tags": [
+      "消费贷款",
+      "贷后管理"
+    ],
+    "field_hits": [
+      [
+        "信贷业务",
+        3,
+        [
+          "贷后管理"
+        ]
+      ]
+    ],
+    "level": "高",
+    "tags": [
+      "个人经营贷款",
+      "贷前调查",
+      "资金流向",
+      "消费贷款",
+      "贷后管理",
+      "贷款监测",
+      "预警机制"
+    ],
+    "mapping": "该处罚同时命中多个汽车金融相关分类，综合判定映射优先级为高。核心映射：个人经营贷款（含商用房按揭）涉及汽车经销商及个体工商户融资。三查不到位及资金流向违规是高频处罚点。",
+    "advice": [
+      "强化经营贷贷前调查，核实经营主体真实性",
+      "建立资金流向监测系统，防止流入房市或股市",
+      "加强贷后管理，定期回访经营主体",
+      "建立消费贷款资金流向监测模型",
+      "禁止消费贷违规流入房地产市场",
+      "强化贷后管理，异常用款及时预警",
+      "建立贷后定期检查机制，覆盖所有存量贷款",
+      "部署还款行为预警模型，逾期30天启动预警",
+      "强化贷款用途监测，防止挪用"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:37:28.719913"
+  },
+  {
+    "doc_id": "1248827",
+    "doc_no": "沪金罚决字〔2026〕28号",
+    "seq": "5",
+    "party": "蔡嘉豪（时任浙江民泰商业银行股份有限公司上海普陀支行客户经理）",
+    "violation": "个人贷款贷后管理严重违反审慎经营规则",
+    "penalty": "警告",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1248827&itemId=1000",
+    "publish_date": "2026-02-03",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "其他银行",
+    "penalty_type": "警告",
+    "field": "信贷业务",
+    "sub_field": "个人经营贷款",
+    "field_confidence": "low",
+    "category_tags": [
+      "消费贷款",
+      "贷后管理"
+    ],
+    "field_hits": [
+      [
+        "信贷业务",
+        3,
+        [
+          "贷后管理"
+        ]
+      ]
+    ],
+    "level": "高",
+    "tags": [
+      "个人经营贷款",
+      "贷前调查",
+      "资金流向",
+      "消费贷款",
+      "贷后管理",
+      "贷款监测",
+      "预警机制"
+    ],
+    "mapping": "该处罚同时命中多个汽车金融相关分类，综合判定映射优先级为高。核心映射：个人经营贷款（含商用房按揭）涉及汽车经销商及个体工商户融资。三查不到位及资金流向违规是高频处罚点。",
+    "advice": [
+      "强化经营贷贷前调查，核实经营主体真实性",
+      "建立资金流向监测系统，防止流入房市或股市",
+      "加强贷后管理，定期回访经营主体",
+      "建立消费贷款资金流向监测模型",
+      "禁止消费贷违规流入房地产市场",
+      "强化贷后管理，异常用款及时预警",
+      "建立贷后定期检查机制，覆盖所有存量贷款",
+      "部署还款行为预警模型，逾期30天启动预警",
+      "强化贷款用途监测，防止挪用"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:37:59.833296"
+  },
+  {
+    "doc_id": "1248827",
+    "doc_no": "沪金罚决字〔2026〕29号",
+    "seq": "6",
+    "party": "肖东耳（时任浙江民泰商业银行股份有限公司上海金山支行客户经理）",
+    "violation": "个人贷款贷后管理严重违反审慎经营规则",
+    "penalty": "警告",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1248827&itemId=1000",
+    "publish_date": "2026-02-03",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "其他银行",
+    "penalty_type": "警告",
+    "field": "信贷业务",
+    "sub_field": "贷后管理",
+    "field_confidence": "medium",
+    "category_tags": [
+      "个人经营贷款",
+      "消费贷款"
+    ],
+    "field_hits": [
+      [
+        "信贷业务",
+        3,
+        [
+          "贷后管理"
+        ]
+      ]
+    ],
+    "level": "高",
+    "tags": [
+      "个人经营贷款",
+      "贷前调查",
+      "资金流向",
+      "消费贷款",
+      "贷后管理",
+      "贷款监测",
+      "预警机制"
+    ],
+    "mapping": "该处罚同时命中多个汽车金融相关分类，综合判定映射优先级为高。核心映射：贷后管理是汽车金融风险控制的关键环节。贷款用途监测、还款行为跟踪及预警机制直接影响资产质量。",
+    "advice": [
+      "强化经营贷贷前调查，核实经营主体真实性",
+      "建立资金流向监测系统，防止流入房市或股市",
+      "加强贷后管理，定期回访经营主体",
+      "建立消费贷款资金流向监测模型",
+      "禁止消费贷违规流入房地产市场",
+      "强化贷后管理，异常用款及时预警",
+      "建立贷后定期检查机制，覆盖所有存量贷款",
+      "部署还款行为预警模型，逾期30天启动预警",
+      "强化贷款用途监测，防止挪用"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:38:08.992227"
+  },
+  {
+    "doc_id": "1248827",
+    "doc_no": "沪金罚决字〔2026〕30号",
+    "seq": "7",
+    "party": "朱永刚（时任浙江民泰商业银行股份有限公司上海闸北支行行长）",
+    "violation": "流动资金贷款贷后管理严重违反审慎经营规则",
+    "penalty": "警告",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1248827&itemId=1000",
+    "publish_date": "2026-02-03",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "其他银行",
+    "penalty_type": "警告",
+    "field": "信贷业务",
+    "sub_field": "个人经营贷款",
+    "field_confidence": "low",
+    "category_tags": [
+      "消费贷款",
+      "贷后管理"
+    ],
+    "field_hits": [
+      [
+        "信贷业务",
+        3,
+        [
+          "贷后管理"
+        ]
+      ]
+    ],
+    "level": "高",
+    "tags": [
+      "个人经营贷款",
+      "贷前调查",
+      "资金流向",
+      "消费贷款",
+      "贷后管理",
+      "贷款监测",
+      "预警机制"
+    ],
+    "mapping": "该处罚同时命中多个汽车金融相关分类，综合判定映射优先级为高。核心映射：个人经营贷款（含商用房按揭）涉及汽车经销商及个体工商户融资。三查不到位及资金流向违规是高频处罚点。",
+    "advice": [
+      "强化经营贷贷前调查，核实经营主体真实性",
+      "建立资金流向监测系统，防止流入房市或股市",
+      "加强贷后管理，定期回访经营主体",
+      "建立消费贷款资金流向监测模型",
+      "禁止消费贷违规流入房地产市场",
+      "强化贷后管理，异常用款及时预警",
+      "建立贷后定期检查机制，覆盖所有存量贷款",
+      "部署还款行为预警模型，逾期30天启动预警",
+      "强化贷款用途监测，防止挪用"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:38:39.656546"
+  },
+  {
+    "doc_id": "1247679",
+    "doc_no": "沪金罚决字〔2026〕21号",
+    "seq": "1",
+    "party": "三井住友银行（中国）有限公司",
+    "violation": "服务收费质价不符",
+    "penalty": "罚款20万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1247679&itemId=1000",
+    "publish_date": "2026-02-02",
+    "rowspan_group": 0,
+    "amount": 20.0,
+    "institution_type": "其他银行",
+    "penalty_type": "罚款/没收",
+    "field": "消费者保护",
+    "sub_field": "服务收费",
+    "field_confidence": "medium",
+    "category_tags": [
+      "票据业务",
+      "银团贷款"
+    ],
+    "field_hits": [
+      [
+        "供应链金融",
+        1,
+        [
+          "收费"
+        ]
+      ],
+      [
+        "信贷业务",
+        1,
+        [
+          "收费"
+        ]
+      ],
+      [
+        "消费者保护",
+        1,
+        [
+          "质价不符"
+        ]
+      ]
+    ],
+    "level": "高",
+    "tags": [
+      "票据业务",
+      "同业票据",
+      "中介防范"
+    ],
+    "mapping": "票据业务（异地票据、同业票据、回购等）涉及汽车金融公司资金运作合规性。中介参与及收费违规是监管重点。",
+    "advice": [
+      "禁止与票据中介合作，建立合作机构黑名单",
+      "严格审查异地票据业务合理性",
+      "建立票据业务收费公示机制"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:38:58.014077"
+  },
+  {
+    "doc_id": "1248821",
+    "doc_no": "沪金罚决字〔2026〕17-20,22、23号",
+    "seq": "1",
+    "party": "上海银行股份有限公司",
+    "violation": "以贷收费；隐匿不良贷款；提供虚假的文件资料；代销业务严重违反审慎经营规则；流动资金贷款违规被挪用；存在未按要求开放系统权限等情况，阻碍现场检查；流动资金贷款管理严重违反审慎经营规则；同业投资业务未将最终债务人纳入授信；同业客户未纳入集团统一授信。",
+    "penalty": "对上海银行股份有限公司罚款450万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1248821&itemId=1000",
+    "publish_date": "2026-01-28",
+    "rowspan_group": 0,
+    "amount": 450.0,
+    "institution_type": "其他银行",
+    "penalty_type": "罚款/没收",
+    "field": "信贷业务",
+    "sub_field": "授信审批",
+    "field_confidence": "medium",
+    "category_tags": [
+      "票据业务",
+      "统一授信和集中度管理",
+      "银团贷款",
+      "现金业务",
+      "服务收费"
+    ],
+    "field_hits": [
+      [
+        "信贷业务",
+        3,
+        [
+          "收费",
+          "统一授信"
+        ]
+      ],
+      [
+        "供应链金融",
+        1,
+        [
+          "收费"
+        ]
+      ],
+      [
+        "柜台业务",
+        1,
+        [
+          "检查"
+        ]
+      ],
+      [
+        "消费者保护",
+        1,
+        [
+          "以贷收费"
+        ]
+      ]
+    ],
+    "level": "高",
+    "tags": [
+      "票据业务",
+      "同业票据",
+      "中介防范",
+      "集中度风险",
+      "集团客户",
+      "统一授信",
+      "授信审批",
+      "过度授信",
+      "异地授信"
+    ],
+    "mapping": "该处罚同时命中多个汽车金融相关分类，综合判定映射优先级为高。核心映射：授信审批是汽车金融信贷风险的第一道防线。过度授信、异地授信及多头授信是监管高频处罚点。",
+    "advice": [
+      "禁止与票据中介合作，建立合作机构黑名单",
+      "严格审查异地票据业务合理性",
+      "建立票据业务收费公示机制",
+      "建立经销商集团图谱，识别隐性关联关系",
+      "对集团客户实施统一授信管理，合并计算风险敞口",
+      "设置单一集团客户授信上限（建议不超过资本净额15%）",
+      "建立统一授信管理平台，防止多头授信",
+      "明确审批权限，禁止越权审批",
+      "对异地授信实施专项审查"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:39:09.463513"
+  },
+  {
+    "doc_id": "1248821",
+    "doc_no": "沪金罚决字〔2026〕17-20,22、23号",
+    "seq": "1",
+    "party": "王珏",
+    "violation": "以贷收费；隐匿不良贷款；提供虚假的文件资料；代销业务严重违反审慎经营规则；流动资金贷款违规被挪用；存在未按要求开放系统权限等情况，阻碍现场检查；流动资金贷款管理严重违反审慎经营规则；同业投资业务未将最终债务人纳入授信；同业客户未纳入集团统一授信。",
+    "penalty": "对王珏给予警告并罚款8万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1248821&itemId=1000",
+    "publish_date": "2026-01-28",
+    "rowspan_group": 0,
+    "amount": 8.0,
+    "institution_type": "其他机构",
+    "penalty_type": "罚款/没收、警告",
+    "field": "供应链金融",
+    "sub_field": "票据业务",
+    "field_confidence": "low",
+    "category_tags": [
+      "统一授信和集中度管理",
+      "银团贷款",
+      "授信审批",
+      "现金业务",
+      "服务收费"
+    ],
+    "field_hits": [
+      [
+        "信贷业务",
+        3,
+        [
+          "收费",
+          "统一授信"
+        ]
+      ],
+      [
+        "供应链金融",
+        1,
+        [
+          "收费"
+        ]
+      ],
+      [
+        "柜台业务",
+        1,
+        [
+          "检查"
+        ]
+      ],
+      [
+        "消费者保护",
+        1,
+        [
+          "以贷收费"
+        ]
+      ]
+    ],
+    "level": "高",
+    "tags": [
+      "票据业务",
+      "同业票据",
+      "中介防范",
+      "集中度风险",
+      "集团客户",
+      "统一授信",
+      "授信审批",
+      "过度授信",
+      "异地授信"
+    ],
+    "mapping": "该处罚同时命中多个汽车金融相关分类，综合判定映射优先级为高。核心映射：票据业务（异地票据、同业票据、回购等）涉及汽车金融公司资金运作合规性。中介参与及收费违规是监管重点。",
+    "advice": [
+      "禁止与票据中介合作，建立合作机构黑名单",
+      "严格审查异地票据业务合理性",
+      "建立票据业务收费公示机制",
+      "建立经销商集团图谱，识别隐性关联关系",
+      "对集团客户实施统一授信管理，合并计算风险敞口",
+      "设置单一集团客户授信上限（建议不超过资本净额15%）",
+      "建立统一授信管理平台，防止多头授信",
+      "明确审批权限，禁止越权审批",
+      "对异地授信实施专项审查"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:39:39.879804"
+  },
+  {
+    "doc_id": "1248821",
+    "doc_no": "沪金罚决字〔2026〕17-20,22、23号",
+    "seq": "1",
+    "party": "李邀庭",
+    "violation": "以贷收费；隐匿不良贷款；提供虚假的文件资料；代销业务严重违反审慎经营规则；流动资金贷款违规被挪用；存在未按要求开放系统权限等情况，阻碍现场检查；流动资金贷款管理严重违反审慎经营规则；同业投资业务未将最终债务人纳入授信；同业客户未纳入集团统一授信。",
+    "penalty": "对李邀庭给予警告并罚款5万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1248821&itemId=1000",
+    "publish_date": "2026-01-28",
+    "rowspan_group": 0,
+    "amount": 5.0,
+    "institution_type": "其他机构",
+    "penalty_type": "罚款/没收、警告",
+    "field": "信贷业务",
+    "sub_field": "信贷其他",
+    "field_confidence": "medium",
+    "category_tags": [
+      "票据业务",
+      "统一授信和集中度管理",
+      "银团贷款",
+      "授信审批",
+      "现金业务",
+      "服务收费"
+    ],
+    "field_hits": [
+      [
+        "信贷业务",
+        3,
+        [
+          "收费",
+          "统一授信"
+        ]
+      ],
+      [
+        "供应链金融",
+        1,
+        [
+          "收费"
+        ]
+      ],
+      [
+        "柜台业务",
+        1,
+        [
+          "检查"
+        ]
+      ],
+      [
+        "消费者保护",
+        1,
+        [
+          "以贷收费"
+        ]
+      ]
+    ],
+    "level": "高",
+    "tags": [
+      "票据业务",
+      "同业票据",
+      "中介防范",
+      "集中度风险",
+      "集团客户",
+      "统一授信",
+      "授信审批",
+      "过度授信",
+      "异地授信"
+    ],
+    "mapping": "该处罚同时命中多个汽车金融相关分类，综合判定映射优先级为高。核心映射：票据业务（异地票据、同业票据、回购等）涉及汽车金融公司资金运作合规性。中介参与及收费违规是监管重点。",
+    "advice": [
+      "禁止与票据中介合作，建立合作机构黑名单",
+      "严格审查异地票据业务合理性",
+      "建立票据业务收费公示机制",
+      "建立经销商集团图谱，识别隐性关联关系",
+      "对集团客户实施统一授信管理，合并计算风险敞口",
+      "设置单一集团客户授信上限（建议不超过资本净额15%）",
+      "建立统一授信管理平台，防止多头授信",
+      "明确审批权限，禁止越权审批",
+      "对异地授信实施专项审查"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:39:46.996570"
+  },
+  {
+    "doc_id": "1248821",
+    "doc_no": "沪金罚决字〔2026〕17-20,22、23号",
+    "seq": "1",
+    "party": "魏逸",
+    "violation": "以贷收费；隐匿不良贷款；提供虚假的文件资料；代销业务严重违反审慎经营规则；流动资金贷款违规被挪用；存在未按要求开放系统权限等情况，阻碍现场检查；流动资金贷款管理严重违反审慎经营规则；同业投资业务未将最终债务人纳入授信；同业客户未纳入集团统一授信。",
+    "penalty": "对魏逸给予警告并罚款5万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1248821&itemId=1000",
+    "publish_date": "2026-01-28",
+    "rowspan_group": 0,
+    "amount": 5.0,
+    "institution_type": "其他机构",
+    "penalty_type": "罚款/没收、警告",
+    "field": "信贷业务",
+    "sub_field": "信贷管理体系流程",
+    "field_confidence": "medium",
+    "category_tags": [
+      "票据业务",
+      "统一授信和集中度管理",
+      "银团贷款",
+      "授信审批",
+      "现金业务",
+      "服务收费"
+    ],
+    "field_hits": [
+      [
+        "信贷业务",
+        3,
+        [
+          "收费",
+          "统一授信"
+        ]
+      ],
+      [
+        "供应链金融",
+        1,
+        [
+          "收费"
+        ]
+      ],
+      [
+        "柜台业务",
+        1,
+        [
+          "检查"
+        ]
+      ],
+      [
+        "消费者保护",
+        1,
+        [
+          "以贷收费"
+        ]
+      ]
+    ],
+    "level": "高",
+    "tags": [
+      "票据业务",
+      "同业票据",
+      "中介防范",
+      "集中度风险",
+      "集团客户",
+      "统一授信",
+      "授信审批",
+      "过度授信",
+      "异地授信"
+    ],
+    "mapping": "该处罚同时命中多个汽车金融相关分类，综合判定映射优先级为高。核心映射：票据业务（异地票据、同业票据、回购等）涉及汽车金融公司资金运作合规性。中介参与及收费违规是监管重点。",
+    "advice": [
+      "禁止与票据中介合作，建立合作机构黑名单",
+      "严格审查异地票据业务合理性",
+      "建立票据业务收费公示机制",
+      "建立经销商集团图谱，识别隐性关联关系",
+      "对集团客户实施统一授信管理，合并计算风险敞口",
+      "设置单一集团客户授信上限（建议不超过资本净额15%）",
+      "建立统一授信管理平台，防止多头授信",
+      "明确审批权限，禁止越权审批",
+      "对异地授信实施专项审查"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:39:58.016917"
+  },
+  {
+    "doc_id": "1248821",
+    "doc_no": "沪金罚决字〔2026〕17-20,22、23号",
+    "seq": "1",
+    "party": "张文澜",
+    "violation": "以贷收费；隐匿不良贷款；提供虚假的文件资料；代销业务严重违反审慎经营规则；流动资金贷款违规被挪用；存在未按要求开放系统权限等情况，阻碍现场检查；流动资金贷款管理严重违反审慎经营规则；同业投资业务未将最终债务人纳入授信；同业客户未纳入集团统一授信。",
+    "penalty": "对张文澜给予警告并罚款5万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1248821&itemId=1000",
+    "publish_date": "2026-01-28",
+    "rowspan_group": 0,
+    "amount": 5.0,
+    "institution_type": "其他机构",
+    "penalty_type": "罚款/没收、警告",
+    "field": "信贷业务",
+    "sub_field": "信贷管理体系流程",
+    "field_confidence": "medium",
+    "category_tags": [
+      "票据业务",
+      "统一授信和集中度管理",
+      "银团贷款",
+      "授信审批",
+      "现金业务",
+      "服务收费"
+    ],
+    "field_hits": [
+      [
+        "信贷业务",
+        3,
+        [
+          "收费",
+          "统一授信"
+        ]
+      ],
+      [
+        "供应链金融",
+        1,
+        [
+          "收费"
+        ]
+      ],
+      [
+        "柜台业务",
+        1,
+        [
+          "检查"
+        ]
+      ],
+      [
+        "消费者保护",
+        1,
+        [
+          "以贷收费"
+        ]
+      ]
+    ],
+    "level": "高",
+    "tags": [
+      "票据业务",
+      "同业票据",
+      "中介防范",
+      "集中度风险",
+      "集团客户",
+      "统一授信",
+      "授信审批",
+      "过度授信",
+      "异地授信"
+    ],
+    "mapping": "该处罚同时命中多个汽车金融相关分类，综合判定映射优先级为高。核心映射：票据业务（异地票据、同业票据、回购等）涉及汽车金融公司资金运作合规性。中介参与及收费违规是监管重点。",
+    "advice": [
+      "禁止与票据中介合作，建立合作机构黑名单",
+      "严格审查异地票据业务合理性",
+      "建立票据业务收费公示机制",
+      "建立经销商集团图谱，识别隐性关联关系",
+      "对集团客户实施统一授信管理，合并计算风险敞口",
+      "设置单一集团客户授信上限（建议不超过资本净额15%）",
+      "建立统一授信管理平台，防止多头授信",
+      "明确审批权限，禁止越权审批",
+      "对异地授信实施专项审查"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:40:07.095740"
+  },
+  {
+    "doc_id": "1248821",
+    "doc_no": "沪金罚决字〔2026〕17-20,22、23号",
+    "seq": "1",
+    "party": "黄大伟",
+    "violation": "以贷收费；隐匿不良贷款；提供虚假的文件资料；代销业务严重违反审慎经营规则；流动资金贷款违规被挪用；存在未按要求开放系统权限等情况，阻碍现场检查；流动资金贷款管理严重违反审慎经营规则；同业投资业务未将最终债务人纳入授信；同业客户未纳入集团统一授信。",
+    "penalty": "对黄大伟给予警告并罚款5万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1248821&itemId=1000",
+    "publish_date": "2026-01-28",
+    "rowspan_group": 0,
+    "amount": 5.0,
+    "institution_type": "其他机构",
+    "penalty_type": "罚款/没收、警告",
+    "field": "供应链金融",
+    "sub_field": "票据业务",
+    "field_confidence": "low",
+    "category_tags": [
+      "统一授信和集中度管理",
+      "银团贷款",
+      "授信审批",
+      "现金业务",
+      "服务收费"
+    ],
+    "field_hits": [
+      [
+        "信贷业务",
+        3,
+        [
+          "收费",
+          "统一授信"
+        ]
+      ],
+      [
+        "供应链金融",
+        1,
+        [
+          "收费"
+        ]
+      ],
+      [
+        "柜台业务",
+        1,
+        [
+          "检查"
+        ]
+      ],
+      [
+        "消费者保护",
+        1,
+        [
+          "以贷收费"
+        ]
+      ]
+    ],
+    "level": "高",
+    "tags": [
+      "票据业务",
+      "同业票据",
+      "中介防范",
+      "集中度风险",
+      "集团客户",
+      "统一授信",
+      "授信审批",
+      "过度授信",
+      "异地授信"
+    ],
+    "mapping": "该处罚同时命中多个汽车金融相关分类，综合判定映射优先级为高。核心映射：票据业务（异地票据、同业票据、回购等）涉及汽车金融公司资金运作合规性。中介参与及收费违规是监管重点。",
+    "advice": [
+      "禁止与票据中介合作，建立合作机构黑名单",
+      "严格审查异地票据业务合理性",
+      "建立票据业务收费公示机制",
+      "建立经销商集团图谱，识别隐性关联关系",
+      "对集团客户实施统一授信管理，合并计算风险敞口",
+      "设置单一集团客户授信上限（建议不超过资本净额15%）",
+      "建立统一授信管理平台，防止多头授信",
+      "明确审批权限，禁止越权审批",
+      "对异地授信实施专项审查"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:40:37.050611"
+  },
+  {
+    "doc_id": "1245055",
+    "doc_no": "沪金罚决字〔2026〕8号",
+    "seq": "1",
+    "party": "富宇（时任交通银行股份有限公司上海金山支行副行长）",
+    "violation": "项目融资业务严重违反审慎经营规则",
+    "penalty": "警告",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1245055&itemId=1000",
+    "publish_date": "2026-01-27",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "国有大型商业银行",
+    "penalty_type": "警告",
+    "field": "其他",
+    "sub_field": "其他",
+    "field_confidence": "low",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:41:07.801908"
+  },
+  {
+    "doc_id": "1245055",
+    "doc_no": "沪金罚决字〔2026〕9号",
+    "seq": "2",
+    "party": "交通银行股份有限公司上海市分行",
+    "violation": "向关系人发放信用贷款、违规对个别贷款品种部分免息、置换类个人经营贷款管理严重违反审慎经营规则、项目融资业务严重违反审慎经营规则、流动资金贷款管理严重违反审慎经营规则、固定资产贷款管理严重违反审慎经营规则、贷款五级分类不准确",
+    "penalty": "罚没款合计611.86951万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1245055&itemId=1000",
+    "publish_date": "2026-01-27",
+    "rowspan_group": 0,
+    "amount": 611.86951,
+    "institution_type": "国有大型商业银行",
+    "penalty_type": "罚款/没收",
+    "field": "信贷业务",
+    "sub_field": "信贷风险五级分类",
+    "field_confidence": "high",
+    "category_tags": [],
+    "field_hits": [
+      [
+        "信贷业务",
+        1,
+        [
+          "五级分类"
+        ]
+      ]
+    ],
+    "level": "高",
+    "tags": [
+      "五级分类",
+      "资产质量",
+      "拨备计提"
+    ],
+    "mapping": "风险五级分类直接影响汽车金融公司资产质量真实性及拨备充足性。分类不准确会掩盖真实风险。",
+    "advice": [
+      "建立贷款风险分类矩阵，结合逾期天数、担保方式、客户评级自动分类",
+      "定期开展分类准确性审计，抽查比例不低于10%",
+      "禁止人为调整分类掩盖不良"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:41:07.801908"
+  },
+  {
+    "doc_id": "1245055",
+    "doc_no": "沪金罚决字〔2026〕10号",
+    "seq": "3",
+    "party": "姜炜（时任交通银行股份有限公司上海市分行消费金融部总经理）",
+    "violation": "向关系人发放信用贷款、违规对个别贷款品种部分免息",
+    "penalty": "警告，处罚款5万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1245055&itemId=1000",
+    "publish_date": "2026-01-27",
+    "rowspan_group": 0,
+    "amount": 5.0,
+    "institution_type": "国有大型商业银行",
+    "penalty_type": "罚款/没收、警告",
+    "field": "其他",
+    "sub_field": "其他",
+    "field_confidence": "low",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:41:38.498758"
+  },
+  {
+    "doc_id": "1245055",
+    "doc_no": "沪金罚决字〔2026〕11号",
+    "seq": "4",
+    "party": "张剑忠（时任交通银行股份有限公司上海嘉定支行副行长）",
+    "violation": "项目融资业务严重违反审慎经营规则",
+    "penalty": "警告",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1245055&itemId=1000",
+    "publish_date": "2026-01-27",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "国有大型商业银行",
+    "penalty_type": "警告",
+    "field": "其他",
+    "sub_field": "其他",
+    "field_confidence": "low",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:42:09.209894"
+  },
+  {
+    "doc_id": "1245055",
+    "doc_no": "沪金罚决字〔2026〕12号",
+    "seq": "5",
+    "party": "丁逸（时任交通银行股份有限公司上海自贸试验区分行行长助理兼大客户五部总经理助理）",
+    "violation": "贷款五级分类不准确",
+    "penalty": "警告",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1245055&itemId=1000",
+    "publish_date": "2026-01-27",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "国有大型商业银行",
+    "penalty_type": "警告",
+    "field": "信贷业务",
+    "sub_field": "信贷风险五级分类",
+    "field_confidence": "high",
+    "category_tags": [],
+    "field_hits": [
+      [
+        "信贷业务",
+        1,
+        [
+          "五级分类"
+        ]
+      ]
+    ],
+    "level": "高",
+    "tags": [
+      "五级分类",
+      "资产质量",
+      "拨备计提"
+    ],
+    "mapping": "风险五级分类直接影响汽车金融公司资产质量真实性及拨备充足性。分类不准确会掩盖真实风险。",
+    "advice": [
+      "建立贷款风险分类矩阵，结合逾期天数、担保方式、客户评级自动分类",
+      "定期开展分类准确性审计，抽查比例不低于10%",
+      "禁止人为调整分类掩盖不良"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:42:09.209894"
+  },
+  {
+    "doc_id": "1245055",
+    "doc_no": "沪金罚决字〔2026〕13号",
+    "seq": "6",
+    "party": "朱牧（时任交通银行股份有限公司上海长宁支行副行长）",
+    "violation": "固定资产贷款管理严重违反审慎经营规则",
+    "penalty": "警告，处罚款5万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1245055&itemId=1000",
+    "publish_date": "2026-01-27",
+    "rowspan_group": 0,
+    "amount": 5.0,
+    "institution_type": "国有大型商业银行",
+    "penalty_type": "罚款/没收、警告",
+    "field": "其他",
+    "sub_field": "其他",
+    "field_confidence": "low",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:42:39.910929"
+  },
+  {
+    "doc_id": "1245055",
+    "doc_no": "沪金罚决字〔2026〕14号",
+    "seq": "7",
+    "party": "刘燕（时任交通银行股份有限公司上海奉贤支行副行长）",
+    "violation": "流动资金贷款管理严重违反审慎经营规则",
+    "penalty": "警告",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1245055&itemId=1000",
+    "publish_date": "2026-01-27",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "国有大型商业银行",
+    "penalty_type": "警告",
+    "field": "信贷业务",
+    "sub_field": "流动资金贷款",
+    "field_confidence": "medium",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:42:48.021987"
+  },
+  {
+    "doc_id": "1245055",
+    "doc_no": "沪金罚决字〔2026〕15号",
+    "seq": "8",
+    "party": "曹沛（时任交通银行股份有限公司上海新区支行副行长）",
+    "violation": "项目融资业务严重违反审慎经营规则、贷款五级分类不准确",
+    "penalty": "警告，处罚款5万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1245055&itemId=1000",
+    "publish_date": "2026-01-27",
+    "rowspan_group": 0,
+    "amount": 5.0,
+    "institution_type": "国有大型商业银行",
+    "penalty_type": "罚款/没收、警告",
+    "field": "信贷业务",
+    "sub_field": "信贷风险五级分类",
+    "field_confidence": "high",
+    "category_tags": [],
+    "field_hits": [
+      [
+        "信贷业务",
+        1,
+        [
+          "五级分类"
+        ]
+      ]
+    ],
+    "level": "高",
+    "tags": [
+      "五级分类",
+      "资产质量",
+      "拨备计提"
+    ],
+    "mapping": "风险五级分类直接影响汽车金融公司资产质量真实性及拨备充足性。分类不准确会掩盖真实风险。",
+    "advice": [
+      "建立贷款风险分类矩阵，结合逾期天数、担保方式、客户评级自动分类",
+      "定期开展分类准确性审计，抽查比例不低于10%",
+      "禁止人为调整分类掩盖不良"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:42:48.021987"
+  },
+  {
+    "doc_id": "1245055",
+    "doc_no": "沪金罚决字〔2026〕16号",
+    "seq": "9",
+    "party": "王健（时任交通银行股份有限公司上海市分行普惠金融部副总经理）",
+    "violation": "置换类个人经营贷款管理严重违反审慎经营规则",
+    "penalty": "警告",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1245055&itemId=1000",
+    "publish_date": "2026-01-27",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "国有大型商业银行",
+    "penalty_type": "警告",
+    "field": "信贷业务",
+    "sub_field": "个人经营贷款",
+    "field_confidence": "medium",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:43:04.522367"
+  },
+  {
+    "doc_id": "1243932",
+    "doc_no": "沪金罚决字〔2026〕5号",
+    "seq": "1",
+    "party": "太平洋安信农业保险股份有限公司上海崇明支公司",
+    "violation": "编制虚假材料",
+    "penalty": "罚款15万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1243932&itemId=1000",
+    "publish_date": "2026-01-21",
+    "rowspan_group": 1,
+    "amount": 15.0,
+    "institution_type": "保险公司",
+    "penalty_type": "罚款/没收",
+    "field": "内控合规案防",
+    "sub_field": "内控合规",
+    "field_confidence": "medium",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:43:10.975278"
+  },
+  {
+    "doc_id": "1243932",
+    "doc_no": "沪金罚决字〔2026〕6号",
+    "seq": "2",
+    "party": "张正飞（时任太平洋安信农业保险股份有限公司上海崇明支公司总经理）",
+    "violation": "编制虚假材料",
+    "penalty": "警告并罚款2万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1243932&itemId=1000",
+    "publish_date": "2026-01-21",
+    "rowspan_group": 1,
+    "amount": 2.0,
+    "institution_type": "保险公司",
+    "penalty_type": "罚款/没收、警告",
+    "field": "内控合规案防",
+    "sub_field": "内控合规",
+    "field_confidence": "medium",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:43:14.320390"
+  },
+  {
+    "doc_id": "1243932",
+    "doc_no": "沪金罚决字〔2026〕7号",
+    "seq": "3",
+    "party": "太平洋安信农业保险股份有限公司上海青浦支公司",
+    "violation": "编制虚假材料",
+    "penalty": "罚款13万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1243932&itemId=1000",
+    "publish_date": "2026-01-21",
+    "rowspan_group": 2,
+    "amount": 13.0,
+    "institution_type": "保险公司",
+    "penalty_type": "罚款/没收",
+    "field": "内控合规案防",
+    "sub_field": "内控合规",
+    "field_confidence": "medium",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:43:24.875963"
+  },
+  {
+    "doc_id": "1243932",
+    "doc_no": "沪金罚决字〔2026〕4号",
+    "seq": "4",
+    "party": "刘啸轶（时任太平洋安信农业保险股份有限公司上海青浦支公司副总经理（主持行政工作））",
+    "violation": "编制虚假材料",
+    "penalty": "警告并罚款1.6万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1243932&itemId=1000",
+    "publish_date": "2026-01-21",
+    "rowspan_group": 2,
+    "amount": 1.6,
+    "institution_type": "保险公司",
+    "penalty_type": "罚款/没收、警告",
+    "field": "内控合规案防",
+    "sub_field": "内控合规",
+    "field_confidence": "medium",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:43:31.096441"
+  },
+  {
+    "doc_id": "1243612",
+    "doc_no": "沪金罚决字〔2026〕1号",
+    "seq": "1",
+    "party": "申能集团财务有限公司",
+    "violation": "发放固定资产贷款用于归还委托贷款、受理不符合条件的固定资产贷款申请并发放贷款",
+    "penalty": "罚款60万元",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1243612&itemId=1000",
+    "publish_date": "2026-01-15",
+    "rowspan_group": 1,
+    "amount": 60.0,
+    "institution_type": "财务公司",
+    "penalty_type": "罚款/没收",
+    "field": "信贷业务",
+    "sub_field": "固定资产贷款",
+    "field_confidence": "medium",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:43:39.932531"
+  },
+  {
+    "doc_id": "1243612",
+    "doc_no": "沪金罚决字〔2026〕2号",
+    "seq": "2",
+    "party": "袁云腾（时任申能集团财务有限公司公司金融部副主管）",
+    "violation": "发放固定资产贷款用于归还委托贷款、受理不符合条件的固定资产贷款申请并发放贷款",
+    "penalty": "警告",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1243612&itemId=1000",
+    "publish_date": "2026-01-15",
+    "rowspan_group": 1,
+    "amount": 0,
+    "institution_type": "财务公司",
+    "penalty_type": "警告",
+    "field": "信贷业务",
+    "sub_field": "固定资产贷款",
+    "field_confidence": "medium",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": true,
+    "enriched_at": "2026-06-17T16:43:48.398171"
+  },
+  {
+    "doc_id": "1243612",
+    "doc_no": "沪金罚决字〔2026〕3号",
+    "seq": "3",
+    "party": "谢永翔（时任中国工商银行股份有限公司上海市漕河泾开发区支行客户经理）",
+    "violation": "员工行为管理严重违反审慎经营规则",
+    "penalty": "禁止从事银行业工作三年",
+    "authority": "上海金融监管局",
+    "source_url": "https://www.nfra.gov.cn/branch/shanghai/view/pages/common/ItemDetail.html?docId=1243612&itemId=1000",
+    "publish_date": "2026-01-15",
+    "rowspan_group": 0,
+    "amount": 0,
+    "institution_type": "国有大型商业银行",
+    "penalty_type": "禁止/取消资格",
+    "field": "其他",
+    "sub_field": "其他",
+    "field_confidence": "low",
+    "category_tags": [],
+    "field_hits": [],
+    "level": "低",
+    "tags": [
+      "通用合规"
+    ],
+    "mapping": "该处罚虽不直接映射汽车金融核心业务，但其合规管理缺陷具有行业共性，汽车金融公司应举一反三。",
+    "advice": [
+      "对照处罚事由开展自查",
+      "完善相关制度流程",
+      "加强合规培训"
+    ],
+    "review_needed": false,
+    "llm_used": false,
+    "enriched_at": "2026-06-17T16:44:19.012080"
+  }
+]

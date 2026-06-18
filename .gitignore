@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Debug 目录（爬虫调试文件，不需要提交）
+scripts/debug/
+
+# 数据文件（可选：如果不想在 Git 上公开处罚数据，可以取消注释下面这行）
+# scripts/data/penalties.json
+# scripts/data/penalties_enriched.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
