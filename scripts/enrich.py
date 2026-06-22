@@ -47,6 +47,10 @@ def parse_amount(text):
 
 def classify_institution_type(party):
     p = party.lower()
+    # 先判断个人：含"时任"几乎一定是个人职级描述
+    if "时任" in p:
+        return "个人"
+    # 再判断具体机构类型（按优先级）
     if "村镇银行" in p:
         return "村镇银行"
     elif "农村商业银行" in p or "农商行" in p:
@@ -77,7 +81,8 @@ def classify_institution_type(party):
         return "证券公司"
     elif "银行" in p:
         return "其他银行"
-    elif "时任" in p or "行长" in p or "经理" in p or "主管" in p or "负责人" in p or "员工" in p or "个人" in p:
+    # 兜底个人关键词
+    elif "行长" in p or "经理" in p or "主管" in p or "负责人" in p or "员工" in p or "个人" in p:
         return "个人"
     else:
         return "其他机构"

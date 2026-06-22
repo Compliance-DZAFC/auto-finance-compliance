@@ -11,6 +11,9 @@ import os
 import json
 import re
 from datetime import datetime
+from openpyxl import Workbook
+from openpyxl.styles import Font, PatternFill, Border, Side, Alignment
+from openpyxl.utils import get_column_letter
 
 DATA_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "penalties_enriched.json")
 OUTPUT_FILE = "dist/index.html"
@@ -180,7 +183,7 @@ def group_by_doc_id(data):
     return result
 
 
-def build_html(groups, year, raw_count):
+def build_html(groups, year, raw_count, excel_filename):
     total = sum(len(g["sub_items"]) for g in groups)
     total_amount = sum(g["total_amount"] for g in groups)
 
@@ -503,21 +506,8 @@ def build_html(groups, year, raw_count):
     print(f"[AI] 案例摘要 token 估算：约 {len(case_summary_json)} 字符（中文约 {len(case_summary_json)//2} tokens）")
 
     system_prompt = (
-        "你是一位资深的汽车金融合规分析专家，基于国家金融监督管理总局上海监管局的处罚数据为用户答疑解惑。\n"
-        f"当前数据集为{year}年，共{total}条处罚案例，罚款总金额{total_amount:.2f}万元。\n"
-        "\n"
-        "【回答规则】\n"
-        "1. 回答必须基于下方提供的案例数据，不得编造不存在的事实。\n"
-        "2. 先直接给出核心结论，再补充细节和分析。\n"
-        "3. 涉及具体案例时，引用处罚文号和当事人名称，让用户可以追溯。\n"
-        "4. 提供合规建议时，要结合汽车金融公司的实际业务场景，给出可操作的具体措施。\n"
-        "5. 如果用户问的是数据中没有覆盖的问题，坦诚说明并给出一般性行业建议。\n"
-        "6. 使用专业但易懂的语言，避免过度学术化。\n"
-        "\n"
-        "【回答格式】\n"
-        "- 用户问趋势/统计：先用数字总结，再分点说明原因\n"
-        "- 用户问具体案例：先说明案例概况，再分析违规点和处罚结果，最后给出映射建议\n"
-        "- 用户问合规建议：分点列出，每条建议标注优先级（高/中/低）\n"
+        "你是东正汽车金融的AI合规助手小东，基于上海金融监管局处罚数据回答问题。\n"
+        "回答要求：问什么答什么，简洁直接，不要罗列过多数据。必须基于提供的案例数据，不编造事实。涉及具体案例时引用处罚文号，便于追溯。数据中没有相关问题时，坦诚说明即可。\n"
     )
 
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
@@ -528,6 +518,8 @@ def build_html(groups, year, raw_count):
         + '<title>汽车金融合规看板 · 上海局 ' + year + '</title>' \
         + '<script src="https://cdn.tailwindcss.com"></script>' \
         + '<script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>' \
+        + '<script src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js"></script>' \
+        + '<script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.8/dist/purify.min.js"></script>' \
         + '<style>' \
         + 'body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",sans-serif;background:#f8f9fa;margin:0;color:#111827}' \
         + '.card{background:#fff;border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.05)}' \
@@ -607,6 +599,13 @@ def build_html(groups, year, raw_count):
         + '.ai-bot>div{background:#fff;border:1px solid #e5e7eb;color:#374151}' \
         + '.ai-user>div{background:#5c2a7f;color:#fff}' \
         + '.ai-loading{color:#6b7280;font-size:12px;margin-top:4px}' \
+        + '.ai-msg>div p{margin:0 0 8px}' \
+        + '.ai-msg>div p:last-child{margin-bottom:0}' \
+        + '.ai-msg>div ul,.ai-msg>div ol{margin:8px 0;padding-left:18px}' \
+        + '.ai-msg>div li{margin-bottom:4px}' \
+        + '.ai-msg>div strong{font-weight:700;color:#111827}' \
+        + '.ai-msg>div a{color:#2563eb;text-decoration:underline}' \
+        + '.ai-msg>div h1,.ai-msg>div h2,.ai-msg>div h3{font-size:14px;margin:10px 0 6px;font-weight:700;color:#111827}' \
         + '</style></head><body>' \
         + '<header style="background:#fff;border-bottom:1px solid #e5e7eb;position:sticky;top:0;z-index:50">' \
         + '<div style="max-width:1400px;margin:0 auto;padding:0 24px;height:64px;display:flex;align-items:center;justify-content:space-between">' \
@@ -614,7 +613,11 @@ def build_html(groups, year, raw_count):
         + '<img src="./logo.svg" alt="logo" style="height:32px;width:auto">' \
         + '<h1 style="font-size:18px;font-weight:700;color:#111827;margin:0">汽车金融行业监管处罚合规看板</h1>' \
         + '<span style="font-size:12px;padding:4px 12px;background:#f3f4f6;color:#374151;border-radius:6px;font-weight:500">上海金融监管局 · ' + year + '年</span></div>' \
-        + '<div style="font-size:14px;color:#6b7280">更新于 ' + now + '</div></div></header>' \
+        + '<div style="display:flex;align-items:center;gap:16px">' \
+        + '<a href="./' + excel_filename + '" download title="下载带格式的 Excel 表格" style="display:inline-flex;align-items:center;gap:6px;padding:8px 14px;background:#fff;border:1px solid #d1d5db;border-radius:8px;color:#374151;font-size:13px;font-weight:500;cursor:pointer;text-decoration:none;transition:all .2s">' \
+        + '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><path d="M8 13h2v6H8z"/><path d="M12 15l-2-2-2 2"/><path d="M12 15v4"/></svg>' \
+        + '导出 Excel</a>' \
+        + '<div style="font-size:14px;color:#6b7280">更新于 ' + now + '</div></div></div></header>' \
         + '<main style="max-width:1400px;margin:0 auto;padding:24px">' \
         + '<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:24px" class="fade-in">'         + '<div class="card kpi" style="padding:20px;border-left:4px solid #5c2a7f">'         + '<p style="font-size:14px;color:#6b7280;margin:0 0 4px">处罚案例数</p>'         + '<p style="font-size:32px;font-weight:700;color:#111827;margin:0">' + str(total) + ' <span style="font-size:16px;font-weight:400;color:#9ca3af">条</span></p>'         + '<p style="font-size:13px;color:#9ca3af;margin-top:8px">上海局 ' + year + ' 年（合并双罚后）</p></div>'         + '<div class="card kpi" style="padding:20px;border-left:4px solid #5c2a7f">'         + '<p style="font-size:14px;color:#6b7280;margin:0 0 4px">罚款总金额</p>'         + '<p style="font-size:32px;font-weight:700;color:#111827;margin:0">' + "{:,.0f}".format(total_amount) + ' <span style="font-size:16px;font-weight:400;color:#9ca3af">万元</span></p>'         + '<p style="font-size:13px;color:#9ca3af;margin-top:8px">含机构及个人罚款</p></div>'         + '<div class="card kpi" style="padding:20px;border-left:4px solid #dc2626">'         + '<p style="font-size:14px;color:#6b7280;margin:0 0 4px">高风险案例</p>'         + '<p style="font-size:32px;font-weight:700;color:#dc2626;margin:0">' + str(risk_stats["高"]) + ' <span style="font-size:16px;font-weight:400;color:#9ca3af">条</span></p>'         + '<p style="font-size:13px;color:#9ca3af;margin-top:8px">对汽车金融有直接映射</p></div>'         + '<div class="card kpi" style="padding:20px;border-left:4px solid #7c5aa3">'         + '<p style="font-size:14px;color:#6b7280;margin:0 0 4px">双罚案例</p>'         + '<p style="font-size:32px;font-weight:700;color:#7c5aa3;margin:0">' + str(dual_penalty_count) + ' <span style="font-size:16px;font-weight:400;color:#9ca3af">条</span></p>'         + '<p style="font-size:13px;color:#9ca3af;margin-top:8px">机构+个人同时被处罚</p></div></div>'         + '<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:24px" class="fade-in">'         + '<div class="card kpi" style="padding:20px;border-left:4px solid #5c2a7f">'         + '<p style="font-size:14px;color:#6b7280;margin:0 0 4px">机构罚单</p>'         + '<p style="font-size:28px;font-weight:700;color:#111827;margin:0">' + str(org_count) + ' <span style="font-size:14px;font-weight:400;color:#9ca3af">条</span></p></div>'         + '<div class="card kpi" style="padding:20px;border-left:4px solid #5c2a7f">'         + '<p style="font-size:14px;color:#6b7280;margin:0 0 4px">个人罚单</p>'         + '<p style="font-size:28px;font-weight:700;color:#111827;margin:0">' + str(person_count) + ' <span style="font-size:14px;font-weight:400;color:#9ca3af">条</span></p></div>'         + '<div class="card kpi" style="padding:20px;border-left:4px solid #5c2a7f">'         + '<p style="font-size:14px;color:#6b7280;margin:0 0 4px">原始记录</p>'         + '<p style="font-size:28px;font-weight:700;color:#111827;margin:0">' + str(raw_count) + ' <span style="font-size:14px;font-weight:400;color:#9ca3af">条</span></p></div></div>'         + '<div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:24px" class="fade-in">'         + '<div class="card" style="padding:20px"><h3 style="font-size:16px;font-weight:700;color:#5c2a7f;margin-bottom:16px">业务领域罚款金额分布</h3>'         + '<div id="chartField" style="height:320px"></div></div>'         + '<div class="card" style="padding:20px"><h3 style="font-size:16px;font-weight:700;color:#111827;margin-bottom:16px">风险等级分布</h3>'         + '<div id="chartRisk" style="height:320px"></div></div></div>'         + '<div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:24px" class="fade-in">'         + '<div class="card" style="padding:20px"><h3 style="font-size:16px;font-weight:700;color:#5c2a7f;margin-bottom:16px">机构类型罚款金额分布</h3>'         + '<div id="chartInst" style="height:320px"></div></div>'         + '<div class="card" style="padding:20px"><h3 style="font-size:16px;font-weight:700;color:#5c2a7f;margin-bottom:16px">处罚类型分布</h3>'         + '<div id="chartPenaltyType" style="height:320px"></div></div></div>' \
         + '<div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:24px" class="fade-in">' \
@@ -687,7 +690,7 @@ def build_html(groups, year, raw_count):
         + '<div style="display:flex;align-items:center;gap:10px"><img src="ai_logo.jpg" style="width:28px;height:28px;border-radius:50%;object-fit:cover;" alt="AI"><span style="font-weight:600;font-size:15px">AI 合规助手</span></div>' \
         + '<button onclick="toggleAI()" style="background:none;border:none;color:#fff;font-size:20px;cursor:pointer">&times;</button></div>' \
         + '<div id="aiMessages" style="flex:1;overflow-y:auto;padding:16px;background:#f9fafb">' \
-        + '<div class="ai-msg ai-bot"><div style="font-size:13px;color:#374151;line-height:1.6">你好！我是基于当前处罚数据训练的合规助手。可以问我：<br>1. 今年高风险案例有哪些？<br>2. 信贷业务主要违规点是什么？<br>3. 有哪些合规管控建议？</div></div>' \
+        + '<div class="ai-msg ai-bot"><div style="font-size:13px;color:#374151;line-height:1.6">你好！我是小东，东正汽车金融的AI合规助手。我基于公司最新的处罚案例数据训练而成，可以帮你"抓"出这些合规问题：<br><br>今年高风险案例有哪些？ —— 锁定监管重点关注的"雷区"<br><br>信贷业务主要违规点是什么？ —— 梳理业务条线的常见违规类型<br><br>有哪些合规管控建议？ —— 提供可落地的风险防范措施<br><br>数据已梳理，猫爪已就位。有什么合规问题，尽管问小东吧！</div></div>' \
         + '</div>' \
         + '<div style="padding:12px 16px;border-top:1px solid #e5e7eb;background:#fff;display:flex;gap:8px">' \
         + '<input id="aiInput" type="text" placeholder="输入问题..." onkeydown="if(event.key===\'Enter\')sendAIQuestion()" style="flex:1;padding:8px 12px;border:1px solid #d1d5db;border-radius:8px;font-size:14px;outline:none">' \
@@ -758,17 +761,114 @@ def build_html(groups, year, raw_count):
         + 'function filterSubField(subField){sfF=subField;apply();}' \
         + 'function searchTable(){sF=document.getElementById("searchInput").value.toLowerCase();apply();}' \
         + 'function toggleAI(){const d=document.getElementById("aiDialog");if(d.style.display==="none"||!d.style.display){d.style.display="flex";d.classList.add("active");}else{d.style.display="none";d.classList.remove("active");}}' \
-        + 'function appendMessage(role,text){const container=document.getElementById("aiMessages");const wrapper=document.createElement("div");wrapper.className="ai-msg ai-"+role;const bubble=document.createElement("div");bubble.innerHTML=text.replace(/\\n/g,"<br>");wrapper.appendChild(bubble);container.appendChild(wrapper);container.scrollTop=container.scrollHeight;return bubble;}' \
+        + 'function appendMessage(role,text){const container=document.getElementById("aiMessages");const wrapper=document.createElement("div");wrapper.className="ai-msg ai-"+role;const bubble=document.createElement("div");if(role==="bot"&&typeof marked!=="undefined"){bubble.innerHTML=DOMPurify.sanitize(marked.parse(text));}else{bubble.innerHTML=text.replace(/\\n/g,"<br>");}wrapper.appendChild(bubble);container.appendChild(wrapper);container.scrollTop=container.scrollHeight;return bubble;}' \
         + 'function appendLoading(){const container=document.getElementById("aiMessages");const wrapper=document.createElement("div");wrapper.className="ai-msg ai-bot";const bubble=document.createElement("div");bubble.innerHTML="<span class=\\"ai-loading\\">思考中...</span>";wrapper.appendChild(bubble);container.appendChild(wrapper);container.scrollTop=container.scrollHeight;return bubble;}' \
-        + 'async function sendAIQuestion(){const input=document.getElementById("aiInput");const q=input.value.trim();if(!q)return;appendMessage("user",q);input.value="";const bubble=appendLoading();try{const messages=[{role:"system",content:systemPrompt+"\\n\\n案例数据："+JSON.stringify(caseSummary)},{role:"user",content:q}];const resp=await fetch("https://auto-finance-ai.autofinance.workers.dev/api/chat",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({model:llmConfig.model,messages:messages,temperature:1,max_tokens:4096}),cache:"no-store",keepalive:false});if(!resp.ok){const data=await resp.json();let errMsg="HTTP "+resp.status;if(data.error&&data.error.message){errMsg+="："+data.error.message;}else if(data.message){errMsg+="："+data.message;}bubble.parentElement.remove();appendMessage("bot","请求失败："+errMsg);return;}bubble.innerHTML="";bubble.parentElement.classList.remove("ai-loading");const reader=resp.body.getReader();const decoder=new TextDecoder();let buffer="";let fullText="";while(true){const {done,value}=await reader.read();if(done)break;buffer+=decoder.decode(value,{stream:true});const lines=buffer.split("\\n");buffer=lines.pop();for(const line of lines){const t=line.trim();if(!t||!t.startsWith("data: "))continue;const ds=t.slice(6);if(ds==="[DONE]")continue;try{const chunk=JSON.parse(ds);if(chunk.choices&&chunk.choices[0]&&chunk.choices[0].delta&&chunk.choices[0].delta.content){fullText+=chunk.choices[0].delta.content;bubble.innerHTML=fullText.replace(/\\n/g,"<br>");document.getElementById("aiMessages").scrollTop=document.getElementById("aiMessages").scrollHeight;}}catch(e){}}}if(!fullText){bubble.innerHTML="抱歉，没有获得有效回答。";}}catch(e){bubble.parentElement.remove();appendMessage("bot","请求异常："+e.message);}}' \
+        + 'async function sendAIQuestion(){const input=document.getElementById("aiInput");const q=input.value.trim();if(!q)return;appendMessage("user",q);input.value="";const bubble=appendLoading();try{const messages=[{role:"system",content:systemPrompt+"\\n\\n案例数据："+JSON.stringify(caseSummary)},{role:"user",content:q}];const resp=await fetch("https://auto-finance-ai.autofinance.workers.dev/api/chat",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({model:llmConfig.model,messages:messages,temperature:1,max_tokens:4096}),cache:"no-store",keepalive:false});if(!resp.ok){const data=await resp.json();let errMsg="HTTP "+resp.status;if(data.error&&data.error.message){errMsg+="："+data.error.message;}else if(data.message){errMsg+="："+data.message;}bubble.parentElement.remove();appendMessage("bot","请求失败："+errMsg);return;}bubble.innerHTML="";bubble.parentElement.classList.remove("ai-loading");const reader=resp.body.getReader();const decoder=new TextDecoder();let buffer="";let fullText="";while(true){const {done,value}=await reader.read();if(done)break;buffer+=decoder.decode(value,{stream:true});const lines=buffer.split("\\n");buffer=lines.pop();for(const line of lines){const t=line.trim();if(!t||!t.startsWith("data: "))continue;const ds=t.slice(6);if(ds==="[DONE]")continue;try{const chunk=JSON.parse(ds);if(chunk.choices&&chunk.choices[0]&&chunk.choices[0].delta&&chunk.choices[0].delta.content){fullText+=chunk.choices[0].delta.content;bubble.innerHTML=fullText.replace(/\\n/g,"<br>");document.getElementById("aiMessages").scrollTop=document.getElementById("aiMessages").scrollHeight;}}catch(e){}}}if(fullText&&typeof marked!=="undefined"){bubble.innerHTML=DOMPurify.sanitize(marked.parse(fullText));}if(!fullText){bubble.innerHTML="抱歉，没有获得有效回答。";}}catch(e){bubble.parentElement.remove();appendMessage("bot","请求异常："+e.message);}}' \
         + 'window.addEventListener("resize",()=>{chartInstances.forEach(c=>c.resize());});' \
         + '</script></body></html>'
 
     return html
 
 
+def build_excel(data, year, output_path):
+    """使用 openpyxl 生成带专业格式的 xlsx"""
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "处罚案例明细"
+
+    headers = [
+        "处罚文号", "发布时间", "当事人", "业务领域", "二级分类",
+        "主要违规事由", "行政处罚内容", "罚款金额（万元）", "原文链接"
+    ]
+    col_count = len(headers)
+
+    # 样式定义
+    title_fill = PatternFill(start_color="1F4E78", end_color="1F4E78", fill_type="solid")
+    subtitle_fill = PatternFill(start_color="D9E2F3", end_color="D9E2F3", fill_type="solid")
+    header_fill = PatternFill(start_color="4472C4", end_color="4472C4", fill_type="solid")
+    zebra_fill = PatternFill(start_color="F2F2F2", end_color="F2F2F2", fill_type="solid")
+    thin_side = Side(style="thin", color="BFBFBF")
+    thin_border = Border(top=thin_side, bottom=thin_side, left=thin_side, right=thin_side)
+    header_side = Side(style="medium", color="1F4E78")
+    header_border = Border(top=header_side, bottom=header_side, left=thin_side, right=thin_side)
+
+    # 第 1 行：大标题
+    ws.merge_cells(start_row=1, start_column=1, end_row=1, end_column=col_count)
+    title_cell = ws.cell(row=1, column=1, value="汽车金融行业监管处罚合规看板")
+    title_cell.font = Font(name="Microsoft YaHei", size=16, bold=True, color="FFFFFF")
+    title_cell.fill = title_fill
+    title_cell.alignment = Alignment(horizontal="center", vertical="center")
+    ws.row_dimensions[1].height = 36
+
+    # 第 2 行：副标题
+    total_amount = sum(r.get("amount", 0) for r in data)
+    export_time = datetime.now().strftime("%Y-%m-%d %H:%M")
+    subtitle_text = (
+        f"上海金融监管局 · {year}年 · 共 {len(data)} 条原始记录 · "
+        f"罚款合计 {total_amount:,.2f} 万元 · 导出时间 {export_time}"
+    )
+    ws.merge_cells(start_row=2, start_column=1, end_row=2, end_column=col_count)
+    subtitle_cell = ws.cell(row=2, column=1, value=subtitle_text)
+    subtitle_cell.font = Font(name="Microsoft YaHei", size=11, color="1F4E78")
+    subtitle_cell.fill = subtitle_fill
+    subtitle_cell.alignment = Alignment(horizontal="center", vertical="center")
+    ws.row_dimensions[2].height = 24
+
+    # 第 4 行：表头
+    for col, header in enumerate(headers, 1):
+        cell = ws.cell(row=4, column=col, value=header)
+        cell.font = Font(name="Microsoft YaHei", size=11, bold=True, color="FFFFFF")
+        cell.fill = header_fill
+        cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
+        cell.border = header_border
+
+    # 数据行
+    for row_idx, record in enumerate(data, 5):
+        is_even = (row_idx - 5) % 2 == 0
+        values = [
+            record.get("doc_no", ""),
+            record.get("publish_date", ""),
+            record.get("party", ""),
+            record.get("field", ""),
+            record.get("sub_field", ""),
+            record.get("violation", ""),
+            record.get("penalty", ""),
+            record.get("amount", 0),
+            record.get("source_url", ""),
+        ]
+        for col, value in enumerate(values, 1):
+            cell = ws.cell(row=row_idx, column=col, value=value)
+            cell.font = Font(name="Microsoft YaHei", size=11)
+            cell.alignment = Alignment(
+                horizontal="right" if col == 8 else "left",
+                vertical="top",
+                wrap_text=True
+            )
+            cell.border = thin_border
+            if is_even:
+                cell.fill = zebra_fill
+            if col == 8 and isinstance(value, (int, float)):
+                cell.number_format = "#,##0.00"
+            if col == 9 and isinstance(value, str) and value.startswith("http"):
+                cell.hyperlink = value
+                cell.value = "查看原文"
+                cell.font = Font(name="Microsoft YaHei", size=11, color="0563C1", underline="single")
+
+    # 列宽
+    widths = [18, 12, 38, 14, 16, 52, 38, 16, 42]
+    for i, w in enumerate(widths, 1):
+        ws.column_dimensions[get_column_letter(i)].width = w
+
+    # 冻结窗格、自动筛选
+    ws.freeze_panes = "A5"
+    ws.auto_filter.ref = f"A4:{get_column_letter(col_count)}{4 + len(data)}"
+
+    wb.save(output_path)
+
+
 def main():
     os.makedirs("dist", exist_ok=True)
+    os.makedirs("docs", exist_ok=True)
 
     if not os.path.exists(DATA_FILE):
         print("[ERROR] 找不到增强数据文件: " + DATA_FILE)
@@ -792,12 +892,26 @@ def main():
     groups = group_by_doc_id(processed)
 
     year = "2026"
-    html = build_html(groups, year, len(processed))
+    excel_filename = f"汽车金融合规处罚案例_{year}.xlsx"
+    html = build_html(groups, year, len(processed), excel_filename)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(html)
 
+    docs_file = os.path.join("docs", "index.html")
+    with open(docs_file, "w", encoding="utf-8") as f:
+        f.write(html)
+
+    # 生成带专业格式的 Excel 文件
+    dist_excel = os.path.join("dist", excel_filename)
+    docs_excel = os.path.join("docs", excel_filename)
+    build_excel(processed, year, dist_excel)
+    build_excel(processed, year, docs_excel)
+
     print("[DONE] 网页已生成: " + OUTPUT_FILE)
+    print("[DONE] 网页已同步: " + docs_file)
+    print("[DONE] Excel 已生成: " + dist_excel)
+    print("[DONE] Excel 已同步: " + docs_excel)
     print("  - 案件包数量: " + str(len(groups)) + " 组")
     print("  - 合并后处罚案例: " + str(sum(len(g["sub_items"]) for g in groups)) + " 条")
     print("  - 原始记录: " + str(len(processed)) + " 条")
