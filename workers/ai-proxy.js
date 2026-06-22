@@ -3,7 +3,7 @@
 
 const API_KEY = "sk-ttACQINTYwQrwKIpPIiIhDJfVkWPrYiLY14Vm1kn8SRAr5nS";  // 你的 Moonshot API Key
 const API_BASE = "https://api.moonshot.cn/v1";
-const MODEL = "moonshot-v1-8k";
+const MODEL = "kimi-k2.5";
 
 export default {
   async fetch(request, env, ctx) {
@@ -35,7 +35,7 @@ export default {
         model: MODEL,
         messages: body.messages || [{ role: "user", content: body.message || "" }],
         stream: true,
-        temperature: 0.7,
+        temperature: 1,
       };
 
       const response = await fetch(`${API_BASE}/chat/completions`, {

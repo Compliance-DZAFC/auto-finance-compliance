@@ -1,3 +1,10 @@
+# 虚拟环境
+.venv-rembg/
+
+# Wrangler 配置
+workers/.wrangler/
+workers/wrangler.jsonc
+
 # Python
 __pycache__/
 *.pyc
