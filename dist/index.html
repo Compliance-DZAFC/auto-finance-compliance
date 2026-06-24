@@ -172,10 +172,13 @@ async function sendAIQuestion(){
       {role:"system",content:systemPrompt+"\n\n案例数据："+JSON.stringify(relevant)},
       {role:"user",content:q}
     ];
-    const resp=await fetch("https://auto-finance-ai.autofinance.workers.dev/api/chat",{
+    const resp=await fetch("https://api.moonshot.cn/v1/chat/completions",{
       method:"POST",
-      headers:{"Content-Type":"application/json"},
-      body:JSON.stringify({model:llmConfig.model,messages:messages,temperature:1,max_tokens:4096}),
+      headers:{
+        "Content-Type":"application/json",
+        "Authorization":"Bearer sk-ttACQINTYwQrwKIpPIiIhDJfVkWPrYiLY14Vm1kn8SRAr5nS"
+      },
+      body:JSON.stringify({model:llmConfig.model,messages:messages,temperature:1,max_tokens:4096,stream:true}),
       cache:"no-store",
       keepalive:false
     });
